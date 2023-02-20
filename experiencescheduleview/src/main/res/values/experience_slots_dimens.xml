@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="experience_slot_year_text_size_default">18dp</dimen>
+    <dimen name="experience_slot_month_text_size_default">18dp</dimen>
+    <dimen name="experience_slot_days_text_size_default">16dp</dimen>
+    <dimen name="experience_slot_slot_text_size_default">16dp</dimen>
+    <dimen name="experience_slot_button_size_default">36dp</dimen>
+    <dimen name="experience_slot_height_default">36dp</dimen>
+</resources>

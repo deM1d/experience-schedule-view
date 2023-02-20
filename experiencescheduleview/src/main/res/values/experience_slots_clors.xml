@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_default">#ffffff</color>
+    <color name="year_text_default">#495662</color>
+    <color name="month_text_default">#495662</color>
+    <color name="days_text_default">#CABCC7</color>
+    <color name="slot_text_available_default">#FFFFFF</color>
+    <color name="slot_text_booked_default">#2B3A49</color>
+    <color name="slot_text_inactive_default">#BBBCBF</color>
+    <color name="slot_background_available_default">#00BE8B</color>
+    <color name="slot_background_booked_default">#FFA4B3</color>
+    <color name="slot_background_inactive_default">#EFEFEF</color>
+</resources>

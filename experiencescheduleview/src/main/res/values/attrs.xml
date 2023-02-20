@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExperienceSlotsView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="yearTextColor" format="color" />
+        <attr name="monthTextColor" format="color" />
+        <attr name="daysTextColor" format="color" />
+
+        <attr name="slotBackgroundAvailableColor" format="color" />
+        <attr name="slotBackgroundBookedColor" format="color" />
+        <attr name="slotBackgroundInactiveColor" format="color" />
+        <attr name="slotTextAvailableColor" format="color" />
+        <attr name="slotTextBookedColor" format="color" />
+        <attr name="slotTextInactiveColor" format="color" />
+
+        <attr name="yearTextSize" format="dimension" />
+        <attr name="monthTextSize" format="dimension" />
+        <attr name="daysTextSize" format="dimension" />
+        <attr name="slotTextSize" format="dimension" />
+        <attr name="buttonsSize" format="dimension" />
+        <attr name="slotsHeight" format="dimension" />
+    </declare-styleable>
+</resources>
