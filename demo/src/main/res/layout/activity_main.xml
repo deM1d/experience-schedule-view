@@ -12,7 +12,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:monthTextSize="24dp"
-        app:yearTextSize="36dp" />
+        app:month_text_size="24dp"
+        app:year_text_size="36dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

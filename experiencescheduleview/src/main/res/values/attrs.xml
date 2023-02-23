@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="ExperienceSlotsView">
-        <attr name="backgroundColor" format="color" />
-        <attr name="yearTextColor" format="color" />
-        <attr name="monthTextColor" format="color" />
-        <attr name="daysTextColor" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="year_text_color" format="color" />
+        <attr name="month_text_color" format="color" />
+        <attr name="days_text_color" format="color" />
 
-        <attr name="slotBackgroundAvailableColor" format="color" />
-        <attr name="slotBackgroundBookedColor" format="color" />
-        <attr name="slotBackgroundInactiveColor" format="color" />
-        <attr name="slotTextAvailableColor" format="color" />
-        <attr name="slotTextBookedColor" format="color" />
-        <attr name="slotTextInactiveColor" format="color" />
+        <attr name="slot_background_available_color" format="color" />
+        <attr name="slot_background_booked_color" format="color" />
+        <attr name="slot_background_inactive_color" format="color" />
+        <attr name="slot_text_available_color" format="color" />
+        <attr name="slot_text_booked_color" format="color" />
+        <attr name="slot_text_inactive_color" format="color" />
 
-        <attr name="yearTextSize" format="dimension" />
-        <attr name="monthTextSize" format="dimension" />
-        <attr name="daysTextSize" format="dimension" />
-        <attr name="slotTextSize" format="dimension" />
-        <attr name="buttonsSize" format="dimension" />
-        <attr name="slotsHeight" format="dimension" />
+        <attr name="year_text_size" format="dimension" />
+        <attr name="month_text_size" format="dimension" />
+        <attr name="days_text_size" format="dimension" />
+        <attr name="slot_text_size" format="dimension" />
+        <attr name="buttons_size" format="dimension" />
+        <attr name="slots_height" format="dimension" />
     </declare-styleable>
 </resources>

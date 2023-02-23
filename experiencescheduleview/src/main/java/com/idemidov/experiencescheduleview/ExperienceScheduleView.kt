@@ -79,67 +79,67 @@ class ExperienceScheduleView @JvmOverloads constructor(
     init {
         context.withStyledAttributes(attrs, R.styleable.ExperienceSlotsView) {
             colorPalette.backgroundColor = getColor(
-                R.styleable.ExperienceSlotsView_backgroundColor,
+                R.styleable.ExperienceSlotsView_background_color,
                 ContextCompat.getColor(context, R.color.background_default)
             )
             colorPalette.yearColor = getColor(
-                R.styleable.ExperienceSlotsView_yearTextColor,
+                R.styleable.ExperienceSlotsView_year_text_color,
                 ContextCompat.getColor(context, R.color.year_text_default)
             )
             colorPalette.monthColor = getColor(
-                R.styleable.ExperienceSlotsView_monthTextColor,
+                R.styleable.ExperienceSlotsView_month_text_color,
                 ContextCompat.getColor(context, R.color.month_text_default)
             )
             colorPalette.daysColor = getColor(
-                R.styleable.ExperienceSlotsView_daysTextColor,
+                R.styleable.ExperienceSlotsView_days_text_color,
                 ContextCompat.getColor(context, R.color.days_text_default)
             )
             colorPalette.slotBackgroundAvailableColor = getColor(
-                R.styleable.ExperienceSlotsView_slotBackgroundAvailableColor,
+                R.styleable.ExperienceSlotsView_slot_background_available_color,
                 ContextCompat.getColor(context, R.color.slot_background_available_default)
             )
             colorPalette.slotBackgroundBookedColor = getColor(
-                R.styleable.ExperienceSlotsView_slotBackgroundBookedColor,
+                R.styleable.ExperienceSlotsView_slot_background_booked_color,
                 ContextCompat.getColor(context, R.color.slot_background_booked_default)
             )
             colorPalette.slotBackgroundInactiveColor = getColor(
-                R.styleable.ExperienceSlotsView_slotBackgroundInactiveColor,
+                R.styleable.ExperienceSlotsView_slot_background_inactive_color,
                 ContextCompat.getColor(context, R.color.slot_background_inactive_default)
             )
             colorPalette.slotTextAvailableColor = getColor(
-                R.styleable.ExperienceSlotsView_slotTextAvailableColor,
+                R.styleable.ExperienceSlotsView_slot_text_available_color,
                 ContextCompat.getColor(context, R.color.slot_text_available_default)
             )
             colorPalette.slotTextBookedColor = getColor(
-                R.styleable.ExperienceSlotsView_slotTextBookedColor,
+                R.styleable.ExperienceSlotsView_slot_text_booked_color,
                 ContextCompat.getColor(context, R.color.slot_text_booked_default)
             )
             colorPalette.slotTextInactiveColor = getColor(
-                R.styleable.ExperienceSlotsView_slotTextInactiveColor,
+                R.styleable.ExperienceSlotsView_slot_text_inactive_color,
                 ContextCompat.getColor(context, R.color.slot_text_inactive_default)
             )
             yearPaint.textSize = getDimension(
-                R.styleable.ExperienceSlotsView_yearTextSize,
+                R.styleable.ExperienceSlotsView_year_text_size,
                 context.resources.getDimension(R.dimen.experience_slot_year_text_size_default)
             )
             monthPaint.textSize = getDimension(
-                R.styleable.ExperienceSlotsView_monthTextSize,
+                R.styleable.ExperienceSlotsView_month_text_size,
                 context.resources.getDimension(R.dimen.experience_slot_month_text_size_default)
             )
             daysPaint.textSize = getDimension(
-                R.styleable.ExperienceSlotsView_daysTextSize,
+                R.styleable.ExperienceSlotsView_days_text_size,
                 context.resources.getDimension(R.dimen.experience_slot_days_text_size_default)
             )
             slotTextPaint.textSize = getDimension(
-                R.styleable.ExperienceSlotsView_slotTextSize,
+                R.styleable.ExperienceSlotsView_slot_text_size,
                 context.resources.getDimension(R.dimen.experience_slot_slot_text_size_default)
             )
             buttonSize = getDimension(
-                R.styleable.ExperienceSlotsView_buttonsSize,
+                R.styleable.ExperienceSlotsView_buttons_size,
                 context.resources.getDimension(R.dimen.experience_slot_button_size_default)
             )
             slotHeight = getDimension(
-                R.styleable.ExperienceSlotsView_slotsHeight,
+                R.styleable.ExperienceSlotsView_slots_height,
                 context.resources.getDimension(R.dimen.experience_slot_height_default)
             )
         }
