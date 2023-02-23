@@ -5,8 +5,6 @@ ExperienceScheduleView
 Custom view to display Tripster expereinces schedule.
 
 ![preview](readmeAssets/demo.gif)
-![preview](readmeAssets/demo-horizontal.gif)
-![Custom drawables](readmeAssets/custom-drawables.gif)
 
 ## Getting started
 Add dependency to Gradle script:
